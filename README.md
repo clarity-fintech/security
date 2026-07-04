@@ -24,6 +24,9 @@ security@clarity-fintech.com
 | [`docs/RESPONSE_TIMELINE.md`](docs/RESPONSE_TIMELINE.md) | Severity levels and response targets |
 | [`docs/SAFE_HARBOR.md`](docs/SAFE_HARBOR.md) | Good-faith researcher protections and limits |
 | [`docs/PROGRAM_STATUS.md`](docs/PROGRAM_STATUS.md) | Current bounty and disclosure status |
+| [`docs/EXCHANGE_READINESS_CHECKLIST.md`](docs/EXCHANGE_READINESS_CHECKLIST.md) | 100-control exchange-readiness checklist |
+| [`docs/CORE_TECHNICAL_SECURITY.md`](docs/CORE_TECHNICAL_SECURITY.md) | Phase 1 technical security evidence register |
+| [`docs/EXCHANGE_COMPLIANCE.md`](docs/EXCHANGE_COMPLIANCE.md) | Phase 3 compliance evidence register |
 
 ## CLRTY Security Surfaces
 
@@ -50,4 +53,10 @@ If a form also asks for a security contact, use:
 
 ```text
 security@clarity-fintech.com
+```
+
+For broader exchange-readiness, compliance, or launch integration review, provide:
+
+```text
+https://github.com/clarity-fintech/security/blob/main/docs/EXCHANGE_READINESS_CHECKLIST.md
 ```

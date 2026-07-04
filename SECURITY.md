@@ -56,6 +56,19 @@ CLRTY currently operates a coordinated vulnerability disclosure program. Paid bo
 
 Do not rely on any reward unless it is confirmed in writing by CLRTY before or during triage.
 
+## Exchange Readiness References
+
+For broader exchange-listing, compliance, liquidity, operational, and technical readiness review, use the public readiness register:
+
+```text
+https://github.com/clarity-fintech/security/blob/main/docs/EXCHANGE_READINESS_CHECKLIST.md
+```
+
+Focused evidence registers are also available for core technical security and exchange compliance:
+
+- `docs/CORE_TECHNICAL_SECURITY.md`
+- `docs/EXCHANGE_COMPLIANCE.md`
+
 ## Safe Harbor
 
 CLRTY intends to work constructively with good-faith researchers who:
