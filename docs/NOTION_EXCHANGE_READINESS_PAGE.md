@@ -1,6 +1,6 @@
-# CLRTY Exchange Readiness Notion Page
+# CLRTY Exchange Readiness / Security Evidence Register
 
-This page is a Notion-ready companion to the public CLRTY security program. It is designed for listing questionnaires, exchange data rooms, and internal launch tracking.
+This page is the Notion-ready security, compliance, liquidity, operational, and testing evidence register for CLRTY exchange integration. It mirrors the public security repository and is intended to live under the same VIS CLARITY PnL / CLRTY DATA CENTER Notion workspace used for metrics.
 
 Canonical GitHub repository:
 
@@ -26,6 +26,31 @@ Full 100-control public checklist:
 https://github.com/clarity-fintech/security/blob/main/docs/EXCHANGE_READINESS_CHECKLIST.md
 ```
 
+Notion sync command from the main CLRTY project:
+
+```bash
+python3 scripts/metrics/sync_notion_security.py
+```
+
+## Notion Placement
+
+Create or sync this page under the existing metrics page:
+
+```text
+VIS CLARITY PnL / CLRTY DATA CENTER
+```
+
+The sync script uses:
+
+```text
+NOTION_TOKEN
+NOTION_DATA_CENTER_PAGE_ID
+NOTION_SECURITY_PAGE_ID
+NOTION_SECURITY_PAGE_TITLE
+```
+
+`NOTION_SECURITY_PAGE_ID` is optional. If it is absent, the script searches for or creates a child page titled `CLRTY Exchange Readiness / Security Evidence Register` under `NOTION_DATA_CENTER_PAGE_ID`.
+
 ## Notion Usage
 
 Create a Notion page named:
@@ -46,6 +71,15 @@ Recommended properties:
 | Last reviewed | Date | Current review date |
 
 Use the GitHub repository as the source of truth. Use Notion for owner assignment, due dates, attachments, and private evidence that should not be committed publicly.
+
+## Status Key
+
+| Status | Meaning |
+|--------|---------|
+| Active | Public process or repository control exists. |
+| Evidence required | Attach deployment logs, tests, runbooks, signed reports, or screenshots before marking complete. |
+| External attestation required | Requires auditor, counsel, SOC 2, market maker, exchange, or compliance vendor evidence. |
+| Operational readiness | Requires staffing, monitoring, launch-day process, or incident response procedure. |
 
 ## Listing Questionnaire Answers
 
@@ -189,21 +223,55 @@ https://github.com/clarity-fintech/security/blob/main/docs/EXCHANGE_COMPLIANCE.m
 | 74 | Final mainnet simulation. | Staging/testnet dry-run logs and signoff. |
 | 75 | Recovery test. | Node/database restore log, RTO/RPO notes. |
 
-## Remaining Public Checklist Pillars
+## Phase 6: Liquidity and Market Operations (76-82)
 
-Controls 76-100 are tracked in the full public checklist:
+| ID | Task | Evidence to attach in Notion |
+|----|------|------------------------------|
+| 76 | Liquidity launch plan. | CEX/DEX/OTC/treasury liquidity plan and launch calendar. |
+| 77 | Market surveillance. | Surveillance vendor/process and alert examples. |
+| 78 | Spread and depth targets. | Market maker KPI sheet and exchange pair targets. |
+| 79 | Deposit and withdrawal readiness. | Dry-run transaction IDs and exchange confirmation. |
+| 80 | Liquidity incident escalation. | Incident playbook and owner matrix. |
+| 81 | Price feed publication. | API docs, data source map, freshness SLA. |
+| 82 | Listing asset metadata. | Logo, ticker, decimals, asset type, chain metadata, checksums. |
 
-```text
-https://github.com/clarity-fintech/security/blob/main/docs/EXCHANGE_READINESS_CHECKLIST.md
-```
+## Phase 7: Custody, Treasury, and Governance Controls (83-88)
 
-These cover:
+| ID | Task | Evidence to attach in Notion |
+|----|------|------------------------------|
+| 83 | Treasury wallet register. | Approved treasury, reserve, liquidity, and operations wallet inventory. |
+| 84 | Signer onboarding and offboarding. | Identity, device, access lifecycle, and offboarding checklist. |
+| 85 | Governance proposal controls. | Review, simulation, approval, and execution runbook. |
+| 86 | Timelock policy. | Delay windows, sensitive action policy, exception path. |
+| 87 | Emergency signer recovery. | Recovery tabletop notes and backup verification. |
+| 88 | Treasury reconciliation. | On-chain balance reconciliation and variance policy. |
 
-- Liquidity and market operations.
-- Custody, treasury, and governance controls.
-- Data room and listing evidence.
-- Incident response and business continuity.
-- Post-listing monitoring and governance.
+## Phase 8: Data Room and Listing Evidence (89-94)
+
+| ID | Task | Evidence to attach in Notion |
+|----|------|------------------------------|
+| 89 | Exchange data room index. | Security, legal, technical, market, and operational artifact map. |
+| 90 | Whitepaper and litepaper control. | Current public document URLs, version history, approvals. |
+| 91 | Audit evidence map. | Finding-to-remediation matrix, commit links, retest notes. |
+| 92 | Public communications pack. | Exchange-approved descriptions, social links, and brand guide. |
+| 93 | Questionnaire answer bank. | Reusable due diligence answers, owner, review date. |
+| 94 | Evidence retention policy. | Retention duration, storage location, access controls. |
+
+## Phase 9: Incident Response and Business Continuity (95-97)
+
+| ID | Task | Evidence to attach in Notion |
+|----|------|------------------------------|
+| 95 | Security incident response plan. | Severity model, roles, containment actions, tabletop exercise. |
+| 96 | Exchange incident notification. | Exchange notification template, contact list, approval flow. |
+| 97 | Public disclosure process. | Coordinated disclosure policy, legal review, changelog process. |
+
+## Phase 10: Post-Listing Monitoring and Governance (98-100)
+
+| ID | Task | Evidence to attach in Notion |
+|----|------|------------------------------|
+| 98 | Post-listing health reviews. | 24-hour, 7-day, and 30-day liquidity/node/support review templates. |
+| 99 | Ongoing dependency and vulnerability management. | Scheduled scans, issue triage, remediation SLA. |
+| 100 | Periodic exchange reporting. | Supply, compliance, security, and operations reporting calendar. |
 
 ## Evidence Handling Rules
 

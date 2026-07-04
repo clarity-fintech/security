@@ -75,6 +75,12 @@ For Notion, listing data rooms, or internal launch tracking, mirror:
 https://github.com/clarity-fintech/security/blob/main/docs/NOTION_EXCHANGE_READINESS_PAGE.md
 ```
 
+Notion sync setup for the same Data Center page used by CLRTY metrics:
+
+```text
+https://github.com/clarity-fintech/security/blob/main/docs/NOTION_SYNC_SETUP.md
+```
+
 ## Safe Harbor
 
 CLRTY intends to work constructively with good-faith researchers who:
