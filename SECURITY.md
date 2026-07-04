@@ -5,7 +5,7 @@ This repository is the canonical security policy and coordinated vulnerability d
 Use this URL for exchange, listing, vendor, and institutional questionnaire fields that request a Bug Bounty or Security Policy page:
 
 ```text
-https://github.com/williamsnameiswill/SECURITY/blob/main/SECURITY.md
+https://github.com/clarity-fintech/security/blob/main/SECURITY.md
 ```
 
 ## Reporting a Vulnerability

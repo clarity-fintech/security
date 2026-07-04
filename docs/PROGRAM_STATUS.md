@@ -10,7 +10,7 @@ CLRTY currently operates a coordinated vulnerability disclosure program.
 | Private reporting channel | `security@clarity-fintech.com` |
 | Paid bounty schedule | Pending formal publication |
 | External platform | Not yet listed on Immunefi, HackerOne, or similar |
-| Listing questionnaire URL | `https://github.com/williamsnameiswill/SECURITY/blob/main/SECURITY.md` |
+| Listing questionnaire URL | `https://github.com/clarity-fintech/security/blob/main/SECURITY.md` |
 
 ## Reward Position
 

@@ -5,7 +5,7 @@ This repository is the public security program and coordinated vulnerability dis
 Canonical security policy:
 
 ```text
-https://github.com/williamsnameiswill/SECURITY/blob/main/SECURITY.md
+https://github.com/clarity-fintech/security/blob/main/SECURITY.md
 ```
 
 Private reporting address:
@@ -43,7 +43,7 @@ This program covers the full CLRTY project family:
 For a Bug Bounty, Security Policy, or Vulnerability Disclosure URL field, provide:
 
 ```text
-https://github.com/williamsnameiswill/SECURITY/blob/main/SECURITY.md
+https://github.com/clarity-fintech/security/blob/main/SECURITY.md
 ```
 
 If a form also asks for a security contact, use:
