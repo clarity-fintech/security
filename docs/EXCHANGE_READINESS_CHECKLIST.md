@@ -181,3 +181,4 @@ This checklist does not claim that every control is complete. It provides the li
 | Program status | [`PROGRAM_STATUS.md`](PROGRAM_STATUS.md) |
 | Core technical controls | [`CORE_TECHNICAL_SECURITY.md`](CORE_TECHNICAL_SECURITY.md) |
 | Exchange compliance controls | [`EXCHANGE_COMPLIANCE.md`](EXCHANGE_COMPLIANCE.md) |
+| Notion-ready evidence tracker | [`NOTION_EXCHANGE_READINESS_PAGE.md`](NOTION_EXCHANGE_READINESS_PAGE.md) |

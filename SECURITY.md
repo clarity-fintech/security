@@ -69,6 +69,12 @@ Focused evidence registers are also available for core technical security and ex
 - `docs/CORE_TECHNICAL_SECURITY.md`
 - `docs/EXCHANGE_COMPLIANCE.md`
 
+For Notion, listing data rooms, or internal launch tracking, mirror:
+
+```text
+https://github.com/clarity-fintech/security/blob/main/docs/NOTION_EXCHANGE_READINESS_PAGE.md
+```
+
 ## Safe Harbor
 
 CLRTY intends to work constructively with good-faith researchers who:

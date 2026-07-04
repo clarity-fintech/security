@@ -27,6 +27,7 @@ security@clarity-fintech.com
 | [`docs/EXCHANGE_READINESS_CHECKLIST.md`](docs/EXCHANGE_READINESS_CHECKLIST.md) | 100-control exchange-readiness checklist |
 | [`docs/CORE_TECHNICAL_SECURITY.md`](docs/CORE_TECHNICAL_SECURITY.md) | Phase 1 technical security evidence register |
 | [`docs/EXCHANGE_COMPLIANCE.md`](docs/EXCHANGE_COMPLIANCE.md) | Phase 3 compliance evidence register |
+| [`docs/NOTION_EXCHANGE_READINESS_PAGE.md`](docs/NOTION_EXCHANGE_READINESS_PAGE.md) | Notion-ready exchange listing and evidence tracker page |
 
 ## CLRTY Security Surfaces
 
@@ -59,4 +60,10 @@ For broader exchange-readiness, compliance, or launch integration review, provid
 
 ```text
 https://github.com/clarity-fintech/security/blob/main/docs/EXCHANGE_READINESS_CHECKLIST.md
+```
+
+For a Notion or private data-room tracker, mirror this page:
+
+```text
+https://github.com/clarity-fintech/security/blob/main/docs/NOTION_EXCHANGE_READINESS_PAGE.md
 ```
