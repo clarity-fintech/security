@@ -70,6 +70,12 @@ For CLRTY-1 live-version chain validation and stress evidence, use:
 https://github.com/clarity-fintech/security/blob/main/docs/CLRTY1_LIVE_CHAIN_STRESS_REPORT.md
 ```
 
+For the five-pillar market launch and exchange listing checklist, use:
+
+```text
+https://github.com/clarity-fintech/security/blob/main/docs/MARKET_LAUNCH_EXCHANGE_LISTING_100.md
+```
+
 Focused evidence registers are also available for core technical security and exchange compliance:
 
 - `docs/CORE_TECHNICAL_SECURITY.md`

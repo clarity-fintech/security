@@ -26,6 +26,12 @@ Full 100-control public checklist:
 https://github.com/clarity-fintech/security/blob/main/docs/EXCHANGE_READINESS_CHECKLIST.md
 ```
 
+Five-pillar market launch checklist:
+
+```text
+https://github.com/clarity-fintech/security/blob/main/docs/MARKET_LAUNCH_EXCHANGE_LISTING_100.md
+```
+
 Notion sync command from the main CLRTY project:
 
 ```bash
@@ -135,6 +141,12 @@ Exchange readiness checklist:
 
 ```text
 https://github.com/clarity-fintech/security/blob/main/docs/EXCHANGE_READINESS_CHECKLIST.md
+```
+
+Market launch / exchange listing checklist:
+
+```text
+https://github.com/clarity-fintech/security/blob/main/docs/MARKET_LAUNCH_EXCHANGE_LISTING_100.md
 ```
 
 Core technical security register:
