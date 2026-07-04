@@ -64,6 +64,12 @@ For broader exchange-listing, compliance, liquidity, operational, and technical 
 https://github.com/clarity-fintech/security/blob/main/docs/EXCHANGE_READINESS_CHECKLIST.md
 ```
 
+For CLRTY-1 live-version chain validation and stress evidence, use:
+
+```text
+https://github.com/clarity-fintech/security/blob/main/docs/CLRTY1_LIVE_CHAIN_STRESS_REPORT.md
+```
+
 Focused evidence registers are also available for core technical security and exchange compliance:
 
 - `docs/CORE_TECHNICAL_SECURITY.md`

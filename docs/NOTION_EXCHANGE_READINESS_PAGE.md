@@ -81,6 +81,48 @@ Use the GitHub repository as the source of truth. Use Notion for owner assignmen
 | External attestation required | Requires auditor, counsel, SOC 2, market maker, exchange, or compliance vendor evidence. |
 | Operational readiness | Requires staffing, monitoring, launch-day process, or incident response procedure. |
 
+## Live CLRTY-1 Chain Validation Snapshot
+
+Current live-version asset identity:
+
+| Field | Value |
+|-------|-------|
+| Asset | CLRTY |
+| Chain | `clrty-1` |
+| Denom | `uclrty` |
+| Kind | Native L1 |
+| Decimals | `9` |
+| Max supply | `16,000,000 CLRTY` |
+| Contract address | Not publicly disclosed; no public wrapped-token address is claimed |
+
+Latest local/simulated CLRTY-1 stress result:
+
+| Battery | Result |
+|---------|--------|
+| Genesis verification | PASS |
+| L-DNET WORM stress | PASS, 50/50 |
+| Fuzz stress | PASS |
+| Nano stress | PASS |
+| Bridge connection audit | PASS |
+| Arbitrage core | PASS |
+| L1 concurrency simulation | PASS, 50 simulated blocks |
+| Fork-swap bounded stress | PASS, 25 iterations |
+
+Evidence report:
+
+```text
+docs/CLRTY1_LIVE_CHAIN_STRESS_REPORT.md
+```
+
+Machine-readable evidence:
+
+```text
+var/compliance/clrty1_live_chain_stress_summary.json
+var/compliance/clrty1_live_endpoint_probe.json
+```
+
+Live endpoint note: no configured `CLRTY_API_URL`, `CLRTY_API_BASE`, or `CLRTY_L1_RPC` HTTP endpoint was present during this run, so the battery validates the repository-backed CLRTY-1 chain model and local/simulated stress paths. Hosted RPC saturation testing remains a separate operator-approved gate.
+
 ## Listing Questionnaire Answers
 
 Bug bounty / security policy URL:

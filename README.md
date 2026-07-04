@@ -27,6 +27,7 @@ security@clarity-fintech.com
 | [`docs/EXCHANGE_READINESS_CHECKLIST.md`](docs/EXCHANGE_READINESS_CHECKLIST.md) | 100-control exchange-readiness checklist |
 | [`docs/CORE_TECHNICAL_SECURITY.md`](docs/CORE_TECHNICAL_SECURITY.md) | Phase 1 technical security evidence register |
 | [`docs/EXCHANGE_COMPLIANCE.md`](docs/EXCHANGE_COMPLIANCE.md) | Phase 3 compliance evidence register |
+| [`docs/CLRTY1_LIVE_CHAIN_STRESS_REPORT.md`](docs/CLRTY1_LIVE_CHAIN_STRESS_REPORT.md) | CLRTY-1 live-version chain validation and stress evidence |
 | [`docs/NOTION_EXCHANGE_READINESS_PAGE.md`](docs/NOTION_EXCHANGE_READINESS_PAGE.md) | Notion-ready exchange listing and evidence tracker page |
 | [`docs/NOTION_SYNC_SETUP.md`](docs/NOTION_SYNC_SETUP.md) | Setup for syncing the security page into the same Notion Data Center used by metrics |
 | [`scripts/sync_notion_security.py`](scripts/sync_notion_security.py) | Standalone Notion uploader for the exchange-readiness page |
@@ -62,6 +63,12 @@ For broader exchange-readiness, compliance, or launch integration review, provid
 
 ```text
 https://github.com/clarity-fintech/security/blob/main/docs/EXCHANGE_READINESS_CHECKLIST.md
+```
+
+For CLRTY-1 chain validation and stress evidence, provide:
+
+```text
+https://github.com/clarity-fintech/security/blob/main/docs/CLRTY1_LIVE_CHAIN_STRESS_REPORT.md
 ```
 
 For a Notion or private data-room tracker, mirror this page:

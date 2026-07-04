@@ -181,5 +181,6 @@ This checklist does not claim that every control is complete. It provides the li
 | Program status | [`PROGRAM_STATUS.md`](PROGRAM_STATUS.md) |
 | Core technical controls | [`CORE_TECHNICAL_SECURITY.md`](CORE_TECHNICAL_SECURITY.md) |
 | Exchange compliance controls | [`EXCHANGE_COMPLIANCE.md`](EXCHANGE_COMPLIANCE.md) |
+| CLRTY-1 stress evidence | [`CLRTY1_LIVE_CHAIN_STRESS_REPORT.md`](CLRTY1_LIVE_CHAIN_STRESS_REPORT.md) |
 | Notion-ready evidence tracker | [`NOTION_EXCHANGE_READINESS_PAGE.md`](NOTION_EXCHANGE_READINESS_PAGE.md) |
 | Notion sync setup | [`NOTION_SYNC_SETUP.md`](NOTION_SYNC_SETUP.md) |
